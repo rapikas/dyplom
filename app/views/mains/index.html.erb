@@ -1,0 +1,178 @@
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+		    <li>
+			<%= link_to 'Poznaj CATa', intros_path %>
+		    </li>
+                    <li>
+			<%= link_to 'O stronie', abouts_path %> 
+                    </li>
+                    <li>
+                        <%= link_to 'Źródła', sources_path %>
+                    </li>
+                    <li>
+                        <%= link_to 'Kontakt', contacts_path %>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">NARZĘDZIA CAT DLA POCZĄTKUJĄCYCH</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Wstęp - historia tłumaczeń</h2>
+                <p>Krótka historia tłumaczeń i rozwóju narzędzi CAT oraz ich znaczenie w kulturze i biznesie.</p>
+                
+                <p>
+                    <a class="btn btn-default btn-lg" <%= link_to 'Dowiedz się więcej', intros_path %> &raquo;</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2></h2>
+                <address>
+                    <strong></strong>
+                    <br>
+                    <br>
+                    <br>
+                </address>
+                <address>
+                    <abbr title="Phone"></abbr>
+                    <br>
+                    <abbr title="Email"></abbr> <a href="mailto:#"></a>
+                </address>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://wierzba.wzks.uj.edu.pl/~12_knap/seminarium/projekt/szablon/kot.png" alt="">
+		<p>
+		<h2>
+		<%= link_to 'Co to jest CAT Tool?', whats_path %>
+		</h2>
+                <p><ul>
+                <li>Do czego służy program
+                <li>Podstawy działania
+                <li>Dlaczego warto korzystać z narzędzi CAT
+                </ul></p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://wierzba.wzks.uj.edu.pl/~12_knap/seminarium/projekt/szablon/kot.png" alt="">
+		<p>                
+		<h2>
+		<%= link_to 'Co składa się na CATa?', elements_path %>
+		</h2>
+                <p><ul>
+                <li>Glosariusz
+                <li>Pamięć tłumaczeń (TM)
+                <li>Paczki – praca z biurami tłumaczeń
+                </ul></p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://wierzba.wzks.uj.edu.pl/~12_knap/seminarium/projekt/szablon/kot.png" alt="">
+		<p>                
+		<h2>
+		<%= link_to 'Animowany tutorial', animations_path %>
+		</h2>
+                <p>Tutaj możecie znaleźć animowany filmik o narzędziach CAT.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://wierzba.wzks.uj.edu.pl/~12_knap/seminarium/projekt/szablon/kot.png" alt="">
+		<p>                
+		<h2>
+		<%= link_to 'Który CAT?', whiches_path %>
+		</h2>
+                <p><ul>
+                <li>Dostępne programy
+                <li>Lista darmowych CATów
+                <li>Porównanie programów
+                <li>CATy webowe – tłumaczenie w przeglądarce
+                </ul></p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://wierzba.wzks.uj.edu.pl/~12_knap/seminarium/projekt/szablon/kot.png" alt="">
+		<p>                
+		<h2>
+		<%= link_to 'Strony Producentów', producers_path %>
+		</h2>
+                <p>Oficjalne portale producentów komercyjnych i niekomercyjnych narzędzi CAT.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="http://wierzba.wzks.uj.edu.pl/~12_knap/seminarium/projekt/szablon/kot.png" alt="">
+                <p>
+		<h2>
+		<%= link_to 'Przydatne strony', sources_path %>
+		</h2>
+                <p>Lista przydatnych portali o tematyce CAT Tools.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; EPI UJ 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+

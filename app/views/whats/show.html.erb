@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @what.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @what.description %>
+</p>
+
+<%= link_to 'Edit', edit_what_path(@what) %> |
+<%= link_to 'Back', whats_path %>
